@@ -46,3 +46,21 @@ specific part of the WASM-based smart contract execution pipeline.
 ├─ wasm_launcher/
 ├─ wasm_build/
 └─ memory/
+
+### wasm_launcher
+
+The core WebAssembly virtual machine launcher.
+This module is responsible for loading, executing, and managing smart contract
+WASM binaries, including gas metering and runtime isolation.
+
+### wasm_build
+
+A build module for compiling smart contracts into WebAssembly binaries.
+The generated WASM artifacts are intended to be executed by the
+wasm_launcher module.
+
+### memory
+
+A shared memory utility module that provides safe and structured
+read/write interfaces for data exchange between the Host and Guest
+environments.
