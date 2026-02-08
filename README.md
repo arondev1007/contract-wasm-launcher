@@ -35,3 +35,14 @@ gas usage.
 - wasmer
 - wasmer-middlewares
 - borsh
+
+## 📂 Repository Structure
+
+This repository is organized into multiple modules, each responsible for a
+specific part of the WASM-based smart contract execution pipeline.
+
+```text
+.
+├─ wasm_launcher/
+├─ wasm_build/
+└─ memory/
