@@ -46,6 +46,7 @@ specific part of the WASM-based smart contract execution pipeline.
 ├─ wasm_launcher/
 ├─ wasm_build/
 └─ memory/
+```
 
 ### wasm_launcher
 
